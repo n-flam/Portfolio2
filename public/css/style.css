@@ -70,7 +70,21 @@ header,
     /* IE6-9 */
 }
 
+.contact {
+    background-color: #0ba6b8;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.footer-copyright {
+    margin-top: 50px;
+    opacity: 0.5;
+    padding: 5px 0px 5px 0px;
+    background-color: #25747d;
+}
 
 footer {
-    background-color: aqua;
+    background-color: #32daed;
 }
