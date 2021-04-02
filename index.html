@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/public/css/background.css" />
 <link rel="stylesheet" href="/public/css/style.css" />
-<style>
+<!-- <style>
   body,
   h1,
   h2,
@@ -18,18 +18,20 @@
   h6 {
     font-family: "Raleway", sans-serif
   }
-</style>
+</style> -->
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
   <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <nav class="w3-sidebar w3-collapse w3-light-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
     <div class="w3-container">
-      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-white"
         title="close menu">
         <i class="fa fa-remove"></i>
       </a>
-      <img src="/public/pic/about/nadja_flam.jpg" alt="Me" style="width:45%;" class="w3-round"><br><br>
+      <div>
+        <img src="/public/pic/about/nadja_flam.jpg" class="nav-img" alt="Me" style="width:45%;" class="img">
+      </div>
       <h4><b>PORTFOLIO</b></h4>
       <p class="w3-text-grey">Nadja Flaming</p>
     </div>
@@ -81,7 +83,7 @@
     <div class="w3-row-padding">
       <div class="w3-third w3-container w3-margin-bottom">
         <img src="/public/pic/portfolio/wltgo.jpg" alt="Who let the dogs out" style="width:100%"
-          class="w3-hover-opacity">
+          class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Who let the dogs out?</b></p>
           <p>Play helps with socializing, training, provides mental stimulation, is good physical exercise, relieves
@@ -89,21 +91,32 @@
             Our App enables pet owners to easily arrange playdates with dogs similar to theirs and enjoy the benefits
             brought through play for them and their dogs.
           </p>
+          <button><a href="https://who-let-the-dogs-out-1.herokuapp.com/"></a>WebApp</button>
+            <button><a href="https://github.com/n-flam/Project2-Who-let-the-dogs-out-"></a>GitHub</button>
         </div>
       </div>
       <div class="w3-third w3-container w3-margin-bottom">
-        <img src="/public/pic/portfolio/lotr.jpg" alt="LoTr" style="width:100%" class="w3-hover-opacity">
+        <img src="/public/pic/portfolio/lotr.jpg" alt="LoTr" style="width:100%" class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Lord of the Ring or Harry Potter </b></p>
           <p>LOTR (pronounced /'lɒtər/) or Potter is a quiz based on the series Lord of the Rings (LOTR) and Harry
             Potter (Potter).</p>
+            <button><a href="https://n-flam.github.io/LOTR-or-Potter-Quiz/"></a>WebApp</button>
+            <button><a href="https://github.com/n-flam/LOTR-or-Potter-Quiz"></a>GitHub</button>
         </div>
       </div>
       <div class="w3-third w3-container">
-        <img src="/public/pic/portfolio/homemadeburger.jpg" alt="homemadeburger" style="width:100%" class="w3-hover-opacity">
+        <img src="/public/pic/portfolio/homemadeburger.jpg" alt="homemadeburger" style="width:100%"
+          class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Home Made Burger</b></p>
-          <p>A burger logger with MySQL, Node, Express, and Handlebars. Node and MySQL to query and route data, and Handlebars to generate HTML. Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app displays the burger on the left side of the page waiting to be devoured. The app will store every burger in a database, whether devoured or not.</p>
+          <p>A burger logger with MySQL, Node, Express, and Handlebars. Node and MySQL to query and route data, and
+            Handlebars to generate HTML. Eat-Da-Burger!</p>
+          <div class="w3-center">
+            <button><a href="https://homemadeburger.herokuapp.com/"></a>WebApp</button>
+            <button><a href="https://github.com/n-flam/HomemadeBurger"></a>GitHub</button>
+          </div>
+
         </div>
       </div>
     </div>
@@ -111,27 +124,36 @@
     <!-- Second Photo Grid-->
     <div class="w3-row-padding">
       <div class="w3-third w3-container w3-margin-bottom">
-        <img src="/public/pic/portfolio/work_day_scheduler.jpg" alt="work_day_scheduler" style="width:100%" class="w3-hover-opacity">
+        <img src="/public/pic/portfolio/work_day_scheduler.jpg" alt="work_day_scheduler" style="width:100%"
+          class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Work Day Scheduler</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
             gravida diam non fringilla.</p>
+            <button><a href="https://n-flam.github.io/Work_Day_Scheduler/index.html"></a>WebApp</button>
+            <button><a href="https://github.com/n-flam/Work_Day_Scheduler"></a>GitHub</button>
         </div>
       </div>
       <div class="w3-third w3-container w3-margin-bottom">
-        <img src="/public/pic/portfolio/readme_generator.jpg" alt="Read Me Generator" style="width:100%" class="w3-hover-opacity">
+        <img src="/public/pic/portfolio/readme_generator.jpg" alt="Read Me Generator" style="width:100%"
+          class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Read Me Generator</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
             gravida diam non fringilla.</p>
+            <button><a href="https://n-flam.github.io/nadjas_password_genenerator/index.html"></a>WebApp</button>
+            <button><a href="https://github.com/n-flam/nadjas_password_genenerator"></a>GitHub</button>
         </div>
       </div>
       <div class="w3-third w3-container">
-        <img src="/public/pic/portfolio/weaterhapp.jpg" alt="Weather App" style="width:100%" class="w3-hover-opacity">
+        <img src="/public/pic/portfolio/weaterhapp.jpg" alt="Weather App" style="width:100%"
+          class="w3-hover-opacity portfolio-img">
         <div class="w3-container w3-white">
           <p><b>Weather App</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
             gravida diam non fringilla.</p>
+            <button><a href=""></a>WebApp</button>
+            <button><a href=""></a>GitHub</button>
         </div>
       </div>
     </div>
@@ -159,15 +181,21 @@
     </div>
 
     <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-      <h4><b>About Me</b></h4>
-      <p>I am Nadja, an Art Director from Germany. In the past years I have been working in Hospitality as a
-        cafe/restaurant manager. It made me realised that my two career were not too different from each others. I am
-        very good at finding solution and am hunger for knowledge. I have never given up the graphical part of me, my
-        friends know that they can count on me when they need help with design and programming even though I hold basic
-        knowledge in them. Due to this I felt that it was about time for me to dive properly and deeply in to
-        programming and this is why I have made the decision to join this bootcamps and start a new chapter in life.
-        Looking forward to meet everyone.</p>
-      <hr>
+      <h3><b>About Me</b></h3>
+      <p>I am Nadja, an Art Director from Germany.</p>
+      <p>In the past years I have been working in Hospitality as a cafe/restaurant manager.It made me realised that my
+        two career were not too different from each others. I am
+        very good at finding solution and am hunger for knowledge.</p>
+      <P>
+        Never giving up the graphical part of me, my friends know that they can count on me when they need help with
+        design and programming even though I hold basic
+        knowledge in them.
+      </P>
+      <p>
+        Due to this I felt that it was about time for me to dive properly and deeply in to
+        programming and this is why I have made the decision to join this bootcamp and start a new chapter in life.
+      </p>
+
 
       <!-- <h4>Technical Skills</h4>
     <!-- Progress bars / Skills 
@@ -188,7 +216,7 @@
         <i class="fa fa-download w3-margin-right"></i>Download Resume
       </button>
     </p> -->
-      <hr>
+
 
       <!-- <h4>How much I charge</h4>
     <!-- Pricing Tables 
@@ -248,18 +276,18 @@
 
     <!-- Contact Section -->
     <div class="w3-container w3-padding-large contact">
-      <h4 id="contact"><b>Contact Me</b></h4>
+      <h3 id="contact"><b>Contact Me</b></h3>
       <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-        <div class="w3-third w3-dark-grey radius">
-          <p><i class="fa fa-envelope w3-xxlarge w3-text-light-blue"></i></p>
+        <div class="w3-third w3-light-grey radius">
+          <p><i class="fa fa-envelope w3-xxlarge w3-text-black contact-icon-container"></i></p>
           <p>Email</p>
         </div>
-        <div class="w3-third w3-teal radius">
-          <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-blue"></i></p>
+        <div class="w3-third radius">
+          <p><i class="fa fa-map-marker w3-xxlarge w3-text-black"></i></p>
           <p>Perth WA</p>
         </div>
-        <div class="w3-third w3-dark-grey radius">
-          <p><i class="fa fa-phone w3-xxlarge w3-text-light-blue"></i></p>
+        <div class="w3-third w3-light-grey radius">
+          <p><i class="fa fa-phone w3-xxlarge w3-text-black"></i></p>
           <p>0000 000 000</p>
         </div>
       </div>
@@ -267,17 +295,17 @@
       <form action="/action_page.php" target="_blank">
         <div class="w3-section">
           <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
+          <input class="w3-input w3-border radius" type="text" name="Name" required>
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
+          <input class="w3-input w3-border radius" type="text" name="Email" required>
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
+          <input class="w3-input w3-border radius" type="text" name="Message" required>
         </div>
-        <button type="submit" class="w3-button w3-grey w3-margin-bottom radius"><i
+        <button type="submit"><i
             class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
       </form>
     </div>
@@ -292,7 +320,7 @@
           <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </div>
 
-        <div class="w3-third">
+        <!-- <div class="w3-third">
           <h3>BLOG POSTS</h3>
           <ul class="w3-ul w3-hoverable">
             <li class="w3-padding-16">
@@ -306,9 +334,9 @@
               <span>Praes tinci sed</span>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <div class="w3-third">
+        <!-- <div class="w3-third">
           <h3>POPULAR TAGS</h3>
           <p>
             <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
@@ -326,17 +354,18 @@
             <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
               class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
           </p>
-        </div>
+        </div> -->
+
         <!-- Copyright Footer -->
-    <div class="w3-container">
-      <footer class="w3-center">
-          <div class="footer-copyright">
+        <div class="w3-container">
+          <footer class="w3-center">
+            <div class="footer-copyright">
               <div class="container text-center">
-                  <span> © 2021 Copyright</span>
+                <span> © 2021 Copyright</span>
               </div>
-          </div>
-      </footer>
-  </div>
+            </div>
+          </footer>
+        </div>
 
       </div>
     </footer>
