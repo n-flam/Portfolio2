@@ -1,11 +1,14 @@
 /* Required for full background image */
-
 html,
 body,
 header,
 #intro-section {
     height: 100%;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+
 
 @media (max-width: 740px) {
     html,
@@ -39,6 +42,10 @@ header,
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.img {
+    border-radius: 10px;
+}
+
 
 .img-gradient:after {
     content: '';
@@ -61,4 +68,9 @@ header,
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
     /* IE6-9 */
+}
+
+
+footer {
+    background-color: aqua;
 }
