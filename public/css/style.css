@@ -42,12 +42,29 @@ header,
 
 .nav-img {
     margin-bottom: 30px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.482);
+}
+
+h5 {
+    color: #309bff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .portfolio-img {
-    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow:   0 0 20px rgb(56, 56, 57);
+}
+
+.portfolio-box {
+    box-shadow:   0 0 20px rgb(56, 56, 57);
+    border-bottom-left-radius: 10px;
 }
 
 .img-gradient:after {
@@ -74,7 +91,8 @@ header,
 }
 
 .contact {
-    background-color: #7ea8d0;
+    /* background-color: #7ea8d0; */
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.482);
 }
 
 .radius {
@@ -89,15 +107,16 @@ button {
     direction: none;
     border: none;
     margin-bottom: 20px;
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.5);
 }
 
 .footer-copyright {
     margin-top: 50px;
     opacity: 0.5;
     padding: 5px 0px 5px 0px;
-    background-color: #b1d8fc;
 }
 
 footer {
     background-color: #85c4ff;
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.482);
 }
