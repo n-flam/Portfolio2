@@ -57,7 +57,7 @@
     <div class="portfolio" id="portfolio">
       <a href="#"><img src="./public/pic/about/nadja_flam.jpg" alt="Nadja" style="width:65px;"
           class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"><i class="fa fa-bars"></i></span>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
       <div class="w3-container">
         <h1>PORTFOLIO</h1>
       </div>
@@ -198,21 +198,35 @@
         </div>
       </div>
       <hr class="w3-opacity">
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border radius" type="text" name="Name" required>
+    
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group w3-section">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control w3-input w3-border radius" required>
+            </div>
         </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border radius" type="text" name="Email" required>
+
+        <div class="fcf-form-group w3-section">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control w3-input w3-border radius" required>
+            </div>
         </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input w3-border radius" type="text" name="Message" required>
+
+        <div class="fcf-form-group w3-section">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control w3-input w3-border radius" rows="6" maxlength="3000" required></textarea>
+            </div>
         </div>
-        <button type="submit"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
-      </form>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+        </div>
+
+    </form>
     </div>
 
     <!-- Footer -->
@@ -220,8 +234,7 @@
       <div class="w3-row-padding">
         <div class="">
           <h1>FOOTER</h1>
-          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
-            gravida diam non fringilla.</p>
+          <p>More information are coming soon.</p>
           <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </div>
 
@@ -239,6 +252,8 @@
     </footer>
     <!-- End page content -->
   </div>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="./public/js/sidebar.js"></script>
 
 </body>
 
