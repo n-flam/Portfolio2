@@ -110,14 +110,24 @@ a {
 
 .contact {
     /* background-color: #7ea8d0; */
-    box-shadow:   0 0 20px rgba(56, 56, 57, 0.482);
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.5);
 }
 
 .radius {
     margin-bottom: 30px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    box-shadow:   0 0 20px rgba(56, 56, 57, 0.482);
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.5);
+}
+
+.button {
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+    background-color: #309bff;
+    direction: none;
+    border: none;
+    box-shadow:   0 0 20px rgba(56, 56, 57, 0.5);
 }
 
 button {
@@ -127,7 +137,7 @@ button {
     background-color: #309bff;
     direction: none;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     box-shadow:   0 0 20px rgba(56, 56, 57, 0.5);
 }
 
